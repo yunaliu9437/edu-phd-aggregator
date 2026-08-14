@@ -49,9 +49,9 @@ SOURCES = [
         "enabled": True,
     },
     {
-        "name": "jobs.ac.uk",
+        "name": "Academictransfer",
         "type": "rss",
-        "url": "https://www.jobs.ac.uk/search/rss?keywords=education%20phd",
+        "url": "https://www.academictransfer.com/en/jobs/?vacancy_type=scientific&q=educational+science&function_types=1&order=",
         "enabled": True,
     },
     {
