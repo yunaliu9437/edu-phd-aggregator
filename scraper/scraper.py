@@ -22,7 +22,7 @@ EDUCATION_KEYWORDS = [
     "inclusive education", "adult education", "early childhood education",
     "educational technology", "vocational education", "language education",
     "mathematics education", "science education", "education policy",
-    "educational leadership", "teaching and learning", "instructional design"
+    "educational leadership", "teaching and learning", "instructional design","AI"
 ]
 
 PHD_KEYWORDS = [
