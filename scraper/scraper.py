@@ -39,13 +39,13 @@ SOURCES = [
     {
         "name": "EURAXESS",
         "type": "rss",
-        "url": "https://euraxess.ec.europa.eu/jobs/rss?keys=education",
+        "url": "https://euraxess.ec.europa.eu/search?keys=education",
         "enabled": True,
     },
     {
         "name": "FindAPhD",
         "type": "rss",
-        "url": "https://www.findaphd.com/rss/?Keywords=education",
+        "url": "https://www.findaphd.com/phds/education/?10M7m0&Keywords=educational+technology",
         "enabled": True,
     },
     {
@@ -57,7 +57,7 @@ SOURCES = [
     {
         "name": "Academic Positions",
         "type": "rss",
-        "url": "https://academicpositions.com/rss?keywords=education",
+        "url": "https://academicpositions.com/find-jobs?page=1&positions[0]=phd&search=educational+technology&fields[0]=education&fields[1]=educational-technology&fields[2]=digital-education",
         "enabled": True,
     },
     # 如果某个源失效，可以将其 enabled 改为 False，或直接删除该段
