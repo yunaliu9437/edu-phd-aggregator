@@ -39,11 +39,29 @@ SOURCES = [
     {
         "name": "EURAXESS",
         "type": "rss",
-        "url": "https://euraxess.ec.europa.eu/jobs/rss?keys=education%20phd",
+        "url": "https://euraxess.ec.europa.eu/jobs/rss?keys=education",
         "enabled": True,
     },
+    {
+        "name": "FindAPhD",
+        "type": "rss",
+        "url": "https://www.findaphd.com/rss/?Keywords=education",
+        "enabled": True,
+    },
+    {
+        "name": "jobs.ac.uk",
+        "type": "rss",
+        "url": "https://www.jobs.ac.uk/search/rss?keywords=education%20phd",
+        "enabled": True,
+    },
+    {
+        "name": "Academic Positions",
+        "type": "rss",
+        "url": "https://academicpositions.com/rss?keywords=education",
+        "enabled": True,
+    },
+    # 如果某个源失效，可以将其 enabled 改为 False，或直接删除该段
 ]
-
 
 def is_phd(job):
     text = f"{job.get('title', '')} {job.get('description', '')}".lower()
